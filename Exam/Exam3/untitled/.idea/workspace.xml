@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce16cd9-44cb-4a9b-87f3-28d382381a69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Fixedwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/main/AirplaneManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/services/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/utils/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Multimedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/management/MultimediaManagement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3ELFQSAgKR1ElaX7eAqBhUlPTXm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce16cd9-44cb-4a9b-87f3-28d382381a69" name="Changes" comment="" />
+      <created>1779949927101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779949927101</updated>
+    </task>
+    <servers />
+  </component>
+</project>
