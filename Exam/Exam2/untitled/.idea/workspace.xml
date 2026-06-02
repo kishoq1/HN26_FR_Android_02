@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcd62202-249b-4a85-b27d-bffe6e2b5506" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/JPL.L.A101.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/entities/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/entities/Magazine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/entities/Publication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/main/LibraryManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/services/LibraryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 1/JPL.L.A101/src/fa/training/utils/Validation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/.idea/2.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/FR_JA4A_Assignment06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/src/Exercise_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/src/Exercise_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.1/FR_JA4A_Assignment06/src/Exercise_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/FR_JA4A_Assignment02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/src/Exercise_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 2/2.2/FR_JA4A_Assignment02/src/Exercise_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/Assignment 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/JPL.M.A101.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/src/fa/training/entities/Candidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/src/fa/training/entities/ExperienceCandidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/src/fa/training/entities/FresherCandidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/src/fa/training/main/CandidateManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/JPL.M.A101/src/fa/training/services/SharedData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/candidate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/candidates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/entities/Candidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/entities/ExperienceCandidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/entities/FresherCandidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/main/CandidateManagement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/main/CandidateManagement$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/main/CandidateManagement$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/main/CandidateManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/out/production/Assignment 3/fa/training/services/SharedData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 3/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/.idea/libraries/JPL_L_L201.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/Assignment 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/JPL.L.L201.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/airport_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Airplane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Airport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Fixedwing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/entities/Helicopter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/main/AirplaneManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/services/DataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 4/JPL.L.L201/src/fa/training/utils/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/JPL.M.A104.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Multimedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/entities/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/main/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment 5/JPL.M.A104/src/fa/training/management/MultimediaManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/Exam1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/Exam1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam1/out/production/Exam1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/Exam2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exam2/src/exam2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Exam2/exam2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/Exam3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/Exam3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/out/production/Exam3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam3/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/Exam 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/src/ContactManagement/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam 4/src/Management.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/Exam4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/out/production/Exam4/ContactManagement/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/out/production/Exam4/Management$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exam4/out/production/Exam4/Management.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3EW3ZHcy1d1VNoi5QBdyqQKQPCr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "C:/HN26_FR_Android_02/Exam/Exam2/untitled/src/Main.java"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcd62202-249b-4a85-b27d-bffe6e2b5506" name="Changes" comment="" />
+      <created>1780280552407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780280552407</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
