@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BBDEFB"
+        android:text="@string/title_bmi"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding ="12dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvHeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height_text"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:labelFor="@+id/etHeight"/>
+
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/tvWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_text"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:labelFor="@+id/etWeight"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_text"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ok"
+        android:backgroundTint="#E0E0E0"
+        android:textColor="#000000"
+       />
+
+</LinearLayout>

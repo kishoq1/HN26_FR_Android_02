@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="title_bmi">BMI</string>
+    <string name="height_text">Height (m)</string>
+    <string name="weight_text">Weight (kg)</string>
+    <string name="result_text">Result</string>
+    <string name="button_ok">OK</string>
+</resources>
