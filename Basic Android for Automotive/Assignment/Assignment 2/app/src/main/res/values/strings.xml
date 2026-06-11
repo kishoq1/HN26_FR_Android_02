@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="tvTitle1">About you</string>
+    <string name="tvTitle2">Your name</string>
+    <string name="tvTitle3">Your age</string>
+    <string name="tvTitle4">Your major</string>
+    <string name="tvTitle5">Your favourite</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="hintInput">Enter your information…</string>
+    <string name="btnBack">Back</string>
+    <string name="tvInputTitle">Input value</string>
+
+
+</resources>

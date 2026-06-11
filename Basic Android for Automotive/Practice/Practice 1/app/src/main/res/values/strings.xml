@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="tvTitle">Tạo hồ sơ người chơi</string>
+    <string name="etGameTag">Nhập Game Tag…</string>
+    <string name="cbVLR">Valorant</string>
+    <string name="cbLOL">League of Legends</string>
+    <string name="cbTFT">Teamfight Tatics</string>
+    <string name="cbFF">Free Fire</string>
+    <string name="btnCreate">Tạo hồ sơ</string>
+    <string name="btnBack">Back</string>
+    <string name="tvGT">Text</string>
+    <string name="tvPlaying">Đang chơi</string>
+</resources>
