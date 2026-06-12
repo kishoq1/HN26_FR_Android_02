@@ -8,6 +8,7 @@
     <string name="cbFF">Free Fire</string>
     <string name="btnCreate">Tạo hồ sơ</string>
     <string name="btnBack">Back</string>
-    <string name="tvGT">Text</string>
-    <string name="tvPlaying">Đang chơi</string>
+    <string name="tvGT">Game Tag</string>
+    <string name="tvPlaying">Đang cày…</string>
+    <string name="tvProfile">Player Profile</string>
 </resources>
