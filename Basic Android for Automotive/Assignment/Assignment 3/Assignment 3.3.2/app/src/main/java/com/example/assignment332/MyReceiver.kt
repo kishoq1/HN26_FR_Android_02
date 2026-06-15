@@ -7,13 +7,10 @@ import android.widget.Toast
 
 class MyReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
-        // Kiểm tra đúng action gửi tới
         if (intent.action == "com.example.assignment332.ACTION_START_BROADCAST") {
 
-            // Hiển thị một thông báo nhỏ để biết Receiver đã bắt được sóng
             Toast.makeText(context, "App B: Đã nhận Broadcast!", Toast.LENGTH_SHORT).show()
 
-            // Tạo Intent gọi màn hình chính dậy
             val mainIntent = Intent(context, MainActivity::class.java)
             mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             context.startActivity(mainIntent)

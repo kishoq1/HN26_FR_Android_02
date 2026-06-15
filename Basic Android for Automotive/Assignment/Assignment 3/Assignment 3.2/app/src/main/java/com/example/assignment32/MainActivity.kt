@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         )
 
         btnSend.setOnClickListener {
-            // Khởi tạo Intent để chuyển sang DisplayActivity
             val intent = Intent(this, DisplayActivity::class.java)
 
             intent.putStringArrayListExtra("GREETINGS_LIST", greetingsList)
