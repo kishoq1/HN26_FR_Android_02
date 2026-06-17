@@ -1,6 +1,7 @@
 package com.example.assignment62
 
 import android.content.ComponentName
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -13,6 +14,7 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
+import com.example.assignment62.service.MusicService
 import com.google.common.util.concurrent.ListenableFuture
 
 class PlayerActivity : AppCompatActivity() {
@@ -21,11 +23,11 @@ class PlayerActivity : AppCompatActivity() {
     private lateinit var tvArtist: TextView
     private lateinit var btnPlay: ImageView
     private lateinit var seekBar: SeekBar
+    private lateinit var imgPlayerCover: ImageView
 
     private var mediaControllerFuture: ListenableFuture<MediaController>? = null
     private var mediaController: MediaController? = null
 
-    // Bộ đếm để cập nhật thanh tiến trình mỗi giây
     private val handler = Handler(Looper.getMainLooper())
     private val updateProgressAction = object : Runnable {
         override fun run() {
@@ -43,13 +45,15 @@ class PlayerActivity : AppCompatActivity() {
         btnPlay = findViewById(R.id.btnPlayerPlay)
         seekBar = findViewById(R.id.seekBar)
 
+        // Yêu cầu có ImageView với ID imgPlayerCover trong layout activity_player.xml
+        imgPlayerCover = findViewById(R.id.imgPlayerCover)
+
         val btnPrev = findViewById<ImageView>(R.id.btnPlayerPrev)
         val btnNext = findViewById<ImageView>(R.id.btnPlayerNext)
         val btnBack = findViewById<ImageView>(R.id.btnBack)
 
         btnBack.setOnClickListener { finish() }
 
-        // Bắt sự kiện thao tác bằng MediaController
         btnPlay.setOnClickListener {
             mediaController?.let {
                 if (it.isPlaying) it.pause() else it.play()
@@ -58,7 +62,6 @@ class PlayerActivity : AppCompatActivity() {
         btnNext.setOnClickListener { mediaController?.seekToNextMediaItem() }
         btnPrev.setOnClickListener { mediaController?.seekToPreviousMediaItem() }
 
-        // Xử lý sự kiện kéo thả SeekBar
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 if (fromUser) {
@@ -72,21 +75,17 @@ class PlayerActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        // 1. Tạo kết nối tới MusicService khi mở màn hình
         val sessionToken = SessionToken(this, ComponentName(this, MusicService::class.java))
         mediaControllerFuture = MediaController.Builder(this, sessionToken).buildAsync()
 
         mediaControllerFuture?.addListener({
             mediaController = mediaControllerFuture?.get()
-
-            // Cập nhật giao diện lần đầu tiên
             updateUI()
 
-            // 2. Lắng nghe mọi thay đổi từ Player (Tự động nhảy khi hết bài, đổi trạng thái...)
             mediaController?.addListener(object : Player.Listener {
                 override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
                     super.onMediaItemTransition(mediaItem, reason)
-                    updateUI() // Đổi tên bài hát khi chuyển bài
+                    updateUI()
                 }
 
                 override fun onIsPlayingChanged(isPlaying: Boolean) {
@@ -100,31 +99,40 @@ class PlayerActivity : AppCompatActivity() {
                 }
             })
 
-            // Kích hoạt chạy SeekBar nếu nhạc đang phát
             if (mediaController?.isPlaying == true) {
                 handler.post(updateProgressAction)
             }
-
         }, ContextCompat.getMainExecutor(this))
     }
 
-    // Hàm cập nhật Thông tin bài hát
     private fun updateUI() {
         mediaController?.currentMediaItem?.mediaMetadata?.let { metadata ->
             tvTitle.text = metadata.title ?: "Unknown Title"
             tvArtist.text = metadata.artist ?: "Unknown Artist"
+
+            // ĐỔI CÁCH LẤY ẢNH: Dùng artworkUri thay vì artworkData
+            val artworkUri = metadata.artworkUri
+            if (artworkUri != null) {
+                imgPlayerCover.setImageURI(artworkUri)
+            } else {
+                val artworkData = metadata.artworkData
+                if (artworkData != null) {
+                    val bitmap = BitmapFactory.decodeByteArray(artworkData, 0, artworkData.size)
+                    imgPlayerCover.setImageBitmap(bitmap)
+                } else {
+                    imgPlayerCover.setImageResource(android.R.drawable.ic_menu_gallery)
+                }
+            }
         }
         updatePlayPauseButton(mediaController?.isPlaying == true)
         updateProgress()
     }
 
-    // Hàm cập nhật Nút Play/Pause
     private fun updatePlayPauseButton(isPlaying: Boolean) {
         val icon = if (isPlaying) android.R.drawable.ic_media_pause else android.R.drawable.ic_media_play
         btnPlay.setImageResource(icon)
     }
 
-    // Hàm cập nhật SeekBar
     private fun updateProgress() {
         mediaController?.let {
             val duration = it.duration
@@ -138,7 +146,6 @@ class PlayerActivity : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        // Giải phóng kết nối và dừng đếm giờ khi thoát màn hình để tiết kiệm pin
         handler.removeCallbacks(updateProgressAction)
         mediaControllerFuture?.let { MediaController.releaseFuture(it) }
         mediaController = null
