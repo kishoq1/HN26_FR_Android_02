@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="KOL_Assignment04_v1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Assignment3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Assignment1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Assignment2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

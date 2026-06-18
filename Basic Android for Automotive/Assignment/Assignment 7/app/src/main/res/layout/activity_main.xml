@@ -1,19 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW TRANSACTION"
+            android:layout_gravity="center"
+            android:textStyle="bold" android:textSize="24sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Amount (e.g. 100000)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etHolderName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Holder Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgCurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbVND"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="VND"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/rbUSD"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="USD" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:id="@+id/btnSale"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="SALE"
+                android:backgroundTint="#4CAF50"/>
+            <Button
+                android:id="@+id/btnRefund"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="REFUND"
+                android:backgroundTint="#F44336"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnClearBatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLEAR BATCH"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#9E9E9E"/>
+
+        <Button
+            android:id="@+id/btnSync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SYNC TO SERVER"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9800"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REVENUE FILTER"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerTypeFilter"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/type_filters" />
+
+        <Spinner
+            android:id="@+id/spinnerCurrencyFilter"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/currency_filters" />
+
+        <EditText
+            android:id="@+id/etNameFilter"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Filter by Holder Name (Optional)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnSelectDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHỌN NGÀY"
+                android:backgroundTint="#03A9F4" />
+
+            <TextView
+                android:id="@+id/tvSelectedDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="None"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnClearDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:backgroundTint="#9E9E9E" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnApplyFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLY FILTER"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalRevenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOTAL REVENUE: 0"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

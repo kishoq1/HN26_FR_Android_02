@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Assignment 7</string>
+    <string-array name="type_filters">
+        <item>None</item>
+        <item>SALE</item>
+        <item>REFUND</item>
+    </string-array>
+    <string-array name="currency_filters">
+        <item>None</item>
+        <item>VND</item>
+        <item>USD</item>
+    </string-array>
 </resources>

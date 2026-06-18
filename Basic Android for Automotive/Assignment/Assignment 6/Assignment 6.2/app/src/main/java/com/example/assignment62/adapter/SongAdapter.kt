@@ -24,8 +24,6 @@ class SongAdapter(
         val tvTitle: TextView = view.findViewById(R.id.tvSongTitle)
         val tvArtist: TextView = view.findViewById(R.id.tvSongArtist)
         val imgSongCover: ImageView = view.findViewById(R.id.imgSongCover)
-
-        // Ánh xạ nút 3 chấm
         val btnMoreOptions: ImageView = view.findViewById(R.id.btnMoreOptions)
     }
 
@@ -55,7 +53,6 @@ class SongAdapter(
             // Khởi tạo PopupMenu neo vào nút 3 chấm
             val popupMenu = PopupMenu(view.context, holder.btnMoreOptions)
 
-            // Thêm các lựa chọn vào Menu
             popupMenu.menu.add(0, 1, 0, "Thêm vào playlist")
             popupMenu.menu.add(0, 2, 0, "Đổi tên")
             popupMenu.menu.add(0, 3, 0, "Xóa")
@@ -78,7 +75,6 @@ class SongAdapter(
                     else -> false
                 }
             }
-            // Hiển thị Menu
             popupMenu.show()
         }
     }

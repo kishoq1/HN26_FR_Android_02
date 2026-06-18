@@ -27,7 +27,7 @@ class PlaylistsFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var playlistAdapter: PlaylistAdapter
     private val myPlaylists = mutableListOf<Playlist>()
-    private var allSongs = listOf<Song>() // Biến lưu trữ toàn bộ nhạc trên máy
+    private var allSongs = listOf<Song>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,7 +40,6 @@ class PlaylistsFragment : Fragment() {
 
         playlistAdapter = PlaylistAdapter(myPlaylists) { clickedPlaylist ->
             if (clickedPlaylist.songs.isNotEmpty()) {
-                // Thay vì gọi playSongs trực tiếp, hãy gọi hàm BottomSheet mà chúng ta vừa viết
                 showSongsBottomSheet(clickedPlaylist.name, clickedPlaylist.songs)
             } else {
                 Toast.makeText(requireContext(), "Playlist này đang trống!", Toast.LENGTH_SHORT)
@@ -66,7 +65,6 @@ class PlaylistsFragment : Fragment() {
             allSongs = songs
         }
 
-        // BỔ SUNG: Luôn lắng nghe và cập nhật danh sách Playlist lên Adapter
         sharedViewModel.playlists.observe(viewLifecycleOwner) { playlists ->
             playlistAdapter.updateData(playlists)
         }
@@ -134,8 +132,8 @@ class PlaylistsFragment : Fragment() {
                 dialog.dismiss()
             },
             onAddToPlaylistClick = { selectedSong ->
-                showAddToPlaylistDialog(selectedSong) // Gọi hộp thoại chọn Playlist
-                dialog.dismiss() // Ẩn BottomSheet đi cho đỡ vướng
+                showAddToPlaylistDialog(selectedSong)
+                dialog.dismiss()
             }
         )
 
@@ -144,7 +142,7 @@ class PlaylistsFragment : Fragment() {
         dialog.show()
     }
 
-    // BỔ SUNG: Hàm vẽ Hộp thoại chọn Playlist
+    // Hàm vẽ Hộp thoại chọn Playlist
     private fun showAddToPlaylistDialog(song: Song) {
         val sharedViewModel = ViewModelProvider(requireActivity())[SharedMusicViewModel::class.java]
         val currentPlaylists = sharedViewModel.playlists.value ?: mutableListOf()

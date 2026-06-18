@@ -45,7 +45,6 @@ class PlayerActivity : AppCompatActivity() {
         btnPlay = findViewById(R.id.btnPlayerPlay)
         seekBar = findViewById(R.id.seekBar)
 
-        // Yêu cầu có ImageView với ID imgPlayerCover trong layout activity_player.xml
         imgPlayerCover = findViewById(R.id.imgPlayerCover)
 
         val btnPrev = findViewById<ImageView>(R.id.btnPlayerPrev)
@@ -110,7 +109,6 @@ class PlayerActivity : AppCompatActivity() {
             tvTitle.text = metadata.title ?: "Unknown Title"
             tvArtist.text = metadata.artist ?: "Unknown Artist"
 
-            // ĐỔI CÁCH LẤY ẢNH: Dùng artworkUri thay vì artworkData
             val artworkUri = metadata.artworkUri
             if (artworkUri != null) {
                 imgPlayerCover.setImageURI(artworkUri)

@@ -31,7 +31,6 @@ class AlbumsFragment : Fragment() {
 
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        // THAY ĐỔI LOGIC: Khi bấm vào Album -> Mở BottomSheet danh sách bài hát của Album đó
         val adapter = PlaylistAdapter(emptyList()) { clickedAlbumGroup ->
             showSongsBottomSheet(clickedAlbumGroup.name, clickedAlbumGroup.songs)
         }
@@ -60,7 +59,7 @@ class AlbumsFragment : Fragment() {
         tvDialogTitle.text = artistName
         rvDialogSongs.layoutManager = LinearLayoutManager(context)
 
-        // CẬP NHẬT: Truyền thêm hàm xử lý onAddToPlaylistClick
+        // Truyền thêm hàm xử lý onAddToPlaylistClick
         val songAdapter = SongAdapter(
             songList = artistSongs,
             onItemClick = { clickedSong ->
@@ -69,8 +68,8 @@ class AlbumsFragment : Fragment() {
                 dialog.dismiss()
             },
             onAddToPlaylistClick = { selectedSong ->
-                showAddToPlaylistDialog(selectedSong) // Gọi hộp thoại chọn Playlist
-                dialog.dismiss() // Ẩn BottomSheet đi cho đỡ vướng
+                showAddToPlaylistDialog(selectedSong)
+                dialog.dismiss()
             }
         )
 
@@ -100,10 +99,7 @@ class AlbumsFragment : Fragment() {
             // Kiểm tra xem bài hát đã tồn tại trong Playlist này chưa
             if (!selectedPlaylist.songs.any { it.id == song.id }) {
                 selectedPlaylist.songs.add(song)
-
-                // Báo cho ViewModel biết dữ liệu đã thay đổi
                 sharedViewModel.playlists.value = currentPlaylists
-
                 Toast.makeText(requireContext(), "Đã thêm vào ${selectedPlaylist.name}", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(requireContext(), "Bài hát đã có trong Playlist này!", Toast.LENGTH_SHORT).show()

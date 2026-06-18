@@ -62,14 +62,14 @@ class MusicService : MediaSessionService() {
         // 2. THIẾT KẾ GIAO DIỆN NÚT "X" (Sẽ hiển thị trên Notification)
         val closeButton = CommandButton.Builder()
             .setDisplayName("Đóng ứng dụng")
-            .setIconResId(R.drawable.ic_menu_close_clear_cancel) // Icon dấu X có sẵn của Android
+            .setIconResId(R.drawable.ic_menu_close_clear_cancel)
             .setSessionCommand(closeCommand)
             .build()
 
         // 3. ĐĂNG KÝ NÚT LÊN MEDIASESSION VÀ BẮT SỰ KIỆN
         mediaSession = MediaSession.Builder(this, player)
             .setSessionActivity(pendingOpenIntent)
-            .setCustomLayout(listOf(closeButton)) // Ép nút X hiển thị lên layout của thanh thông báo
+            .setCustomLayout(listOf(closeButton))
             .setCallback(object : MediaSession.Callback {
 
                 // Cấp quyền để ứng dụng được phép nhận lệnh Custom Command này
@@ -101,13 +101,10 @@ class MusicService : MediaSessionService() {
 
                         // B. Bắn tín hiệu "Xóa sổ toàn bộ Activity" tới MainActivity
                         val exitIntent = Intent(this@MusicService, MainActivity::class.java).apply {
-                            // FLAG_ACTIVITY_CLEAR_TASK sẽ quét sạch toàn bộ PlayerActivity hay các Fragment đang đè lên nhau
                             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
                             putExtra("EXIT_APP", true)
                         }
                         startActivity(exitIntent)
-
-                        // C. Rút thanh Notification và tắt Service
                         stopSelf()
                     }
                     return Futures.immediateFuture(SessionResult(SessionResult.RESULT_SUCCESS))

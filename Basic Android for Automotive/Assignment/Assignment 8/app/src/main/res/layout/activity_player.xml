@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="start"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="#FFFFFF" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="125dp"
+        app:cardElevation="12dp">
+        <ImageView
+            android:id="@+id/imgPlayerCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPlayerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Tên bài hát"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvPlayerArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ca sĩ"
+        android:textColor="#AAAAAA"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:progressTint="#1DB954"
+        android:thumbTint="#1DB954" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btnPlayerPrev"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_media_previous"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/btnPlayerPlay"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="24dp"
+            android:src="@android:drawable/ic_media_pause"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/btnPlayerNext"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_media_next"
+            app:tint="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
