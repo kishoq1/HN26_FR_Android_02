@@ -58,18 +58,13 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
     // Hàm thêm danh sách liên hệ (dùng để tạo dữ liệu giả)
     fun insertContacts(contacts: List<Contact>) {
         val db = this.writableDatabase
-        db.beginTransaction()
-        try {
+        db.transaction {
             for (contact in contacts) {
                 val values = ContentValues()
                 values.put(COLUMN_NAME, contact.name)
                 values.put(COLUMN_PHONE, contact.phoneNumber)
-                db.insert(TABLE_CONTACTS, null, values)
+                insert(TABLE_CONTACTS, null, values)
             }
-            db.setTransactionSuccessful()
-        } finally {
-            db.endTransaction()
-
             db.close()
         }
     }
