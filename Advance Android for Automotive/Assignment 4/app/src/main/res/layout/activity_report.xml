@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÁO CÁO THỐNG KÊ"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tra cứu theo Khách hàng (ID):" />
+    <EditText
+        android:id="@+id/edtClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập ID khách hàng (VD: 1)" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Năm tra cứu:" android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="2023" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TÍNH TOÁN DOANH THU"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvClientTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng chi phí của khách: $0.0"
+        android:textSize="18sp"
+        android:textColor="#E91E63"
+        android:layout_marginBottom="16dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#CCCCCC" android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvHotelTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng doanh thu khách sạn: $0.0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+
+</LinearLayout>
