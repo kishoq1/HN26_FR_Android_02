@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa40363c-00bc-48a6-9e78-4ad0ee862aee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/androidTest/java/com/example/assignment22/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/java/com/example/assignment22/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/keepRules/rules.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/app/src/test/java/com/example/assignment22/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.2/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/androidTest/java/com/example/assignment8/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/CryptoApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/data/model/CryptoConcurrency.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/data/repository/CryptoRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/di/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/ui/view/CryptoAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/ui/view/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/java/com/example/assignment8/ui/viewmodel/CryptoViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/keepRules/rules.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/layout/item_crypto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/app/src/test/java/com/example/assignment8/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 8/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/androidTest/java/com/example/practice1/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/CryptoApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/data/model/CryptoCurrency.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/data/repository/CryptoRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/data/repository/ICryptoRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/di/RepositoryModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/ui/view/CryptoAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/ui/view/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/java/com/example/practice1/ui/viewmodel/CryptoViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/keepRules/rules.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/layout/item_crypto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/app/src/test/java/com/example/practice1/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Practice 1/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/data/room/OccupationDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/data/room/OccupationDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/ui/screens/AddOccupationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/ui/screens/AddOccupationActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/ui/screens/ReportActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 4/app/src/main/java/com/example/assignment4/ui/screens/ReportActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 4/app/src/main/res/layout/activity_add_occupation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 4/app/src/main/res/layout/activity_add_occupation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanPVT_AAD_Assignment04_v1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanPVT_AAD_Assignment04_v1.0.zip" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kishoq1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kishoq1/HN26_FR_Android_02.git",
+    "accountId": "c7dcc188-4092-4285-95ef-925423665360"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3FqZySFlGcyvhyyVWKeZ1nXbgpn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa40363c-00bc-48a6-9e78-4ad0ee862aee" name="Changes" comment="" />
+      <created>1782804817013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782804817013</updated>
+    </task>
+    <servers />
+  </component>
+</project>

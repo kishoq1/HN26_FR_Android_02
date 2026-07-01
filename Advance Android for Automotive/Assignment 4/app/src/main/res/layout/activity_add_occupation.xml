@@ -46,6 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Ngày nhận (dd/MM/yyyy)"
+                android:focusable="false"
+                android:cursorVisible="false"
                 android:inputType="date" />
 
             <EditText
@@ -55,6 +57,8 @@
                 android:layout_weight="1"
                 android:layout_marginStart="8dp"
                 android:hint="Ngày trả (dd/MM/yyyy)"
+                android:focusable="false"
+                android:cursorVisible="false"
                 android:inputType="date" />
         </LinearLayout>
 

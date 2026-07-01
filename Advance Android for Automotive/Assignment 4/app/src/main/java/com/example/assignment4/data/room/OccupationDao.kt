@@ -21,27 +21,35 @@ interface OccupationDao {
     @Update
     suspend fun updateOccupation(occupation: Occupation)
 
-    // Task 4: Tổng chi phí của một khách hàng trong khoảng thời gian (Năm 2023)
-    // Tính = Giá phòng + Tổng các chi phí phát sinh
+
+    // Task 4: Tổng chi phí của 1 khách hàng
     @Query("""
-        SELECT SUM(roomtypes.price) + 
-               COALESCE((SELECT SUM(amount) FROM expenses WHERE occupation_id = occupations.id), 0)
+        SELECT SUM(
+            ((occupations.dateReturn - occupations.dateTake) / 86400000) * roomtypes.price 
+            + 
+            COALESCE((SELECT SUM(amount) FROM expenses WHERE occupation_id = occupations.id), 0.0)
+        )
         FROM occupations
         INNER JOIN rooms ON occupations.room_id = rooms.id
         INNER JOIN roomtypes ON rooms.roomtype_id = roomtypes.id
         WHERE occupations.client_id = :clientId 
-        AND occupations.dateTake >= :startOfYear AND occupations.dateTake <= :endOfYear
+          AND occupations.dateTake >= :startOfYear 
+          AND occupations.dateTake <= :endOfYear
     """)
     fun getClientTotalExpense(clientId: Int, startOfYear: Long, endOfYear: Long): Flow<Double?>
 
-    // Task 5: Tổng doanh thu của toàn bộ khách sạn trong một năm
+    // Task 5: Tổng doanh thu toàn bộ khách sạn
     @Query("""
-        SELECT SUM(roomtypes.price) + 
-               COALESCE((SELECT SUM(amount) FROM expenses WHERE occupation_id = occupations.id), 0)
+        SELECT SUM(
+            ((occupations.dateReturn - occupations.dateTake) / 86400000) * roomtypes.price 
+            + 
+            COALESCE((SELECT SUM(amount) FROM expenses WHERE occupation_id = occupations.id), 0.0)
+        )
         FROM occupations
         INNER JOIN rooms ON occupations.room_id = rooms.id
         INNER JOIN roomtypes ON rooms.roomtype_id = roomtypes.id
-        WHERE occupations.dateTake >= :startOfYear AND occupations.dateTake <= :endOfYear
+        WHERE occupations.dateTake >= :startOfYear 
+          AND occupations.dateTake <= :endOfYear
     """)
     fun getHotelTotalRevenue(startOfYear: Long, endOfYear: Long): Flow<Double?>
 

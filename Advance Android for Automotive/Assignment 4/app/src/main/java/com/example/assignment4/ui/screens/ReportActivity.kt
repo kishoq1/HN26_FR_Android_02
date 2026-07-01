@@ -1,4 +1,4 @@
-package com.example.assignment4.ui.screens // Đổi package cho phù hợp
+package com.example.assignment4.ui.screens
 
 import android.annotation.SuppressLint
 import android.os.Bundle
