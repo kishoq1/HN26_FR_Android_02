@@ -16,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -24,24 +25,26 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.assignment3.R
 
-
 @Composable
 fun InputInfoScreen(
     viewModel: InputInfoViewModel = hiltViewModel(),
-    onNavigateToLogin: () -> Unit
+    onNavigateToLogin: () -> Unit,
+    onNavigateToFindAccount: () -> Unit
 ) {
     val userName by viewModel.savedUserName.collectAsState()
 
     InputInfoContent(
         userName = userName,
-        onNavigateToLogin = onNavigateToLogin
+        onNavigateToLogin = onNavigateToLogin,
+        onNavigateToFindAccount = onNavigateToFindAccount
     )
 }
 
 @Composable
 fun InputInfoContent(
     userName: String,
-    onNavigateToLogin: () -> Unit
+    onNavigateToLogin: () -> Unit,
+    onNavigateToFindAccount: () -> Unit
 ) {
     val facebookBlue = Color(0xFF1877F2)
 
@@ -63,6 +66,7 @@ fun InputInfoContent(
 
         Spacer(modifier = Modifier.height(70.dp))
 
+        // Card hiển thị tài khoản
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -71,13 +75,17 @@ fun InputInfoContent(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Box {
-                Box(
+                // Đã cập nhật: Hiển thị ảnh đại diện thay vì Box màu xám
+                Image(
+                    painter = painterResource(id = R.drawable.img_avt), // Nhớ đảm bảo bạn có file img_avatar.png trong res/drawable
+                    contentDescription = "User Avatar",
                     modifier = Modifier
                         .size(60.dp)
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(Color.LightGray)
+                        .clip(RoundedCornerShape(8.dp)),
+                    contentScale = ContentScale.Crop // Cắt ảnh vừa khung mà không làm méo tỉ lệ
                 )
 
+                // Biểu tượng thông báo màu đỏ (số 7)
                 Box(
                     modifier = Modifier
                         .size(20.dp)
@@ -109,10 +117,11 @@ fun InputInfoContent(
 
         Spacer(modifier = Modifier.height(16.dp))
 
+        // Nút: Log Into Another Account -> Chuyển sang LoginScreen
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable { /* Xử lý chuyển sang đăng nhập tài khoản khác */ }
+                .clickable { onNavigateToLogin() }
                 .padding(vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -125,10 +134,11 @@ fun InputInfoContent(
             Text("Log Into Another Account", color = facebookBlue, fontWeight = FontWeight.Medium, fontSize = 16.sp)
         }
 
+        // Nút: Find Your Account -> Chuyển sang FindAccountScreen
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable { /* Xử lý chuyển sang tìm tài khoản */ }
+                .clickable { onNavigateToFindAccount() }
                 .padding(vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -163,6 +173,7 @@ fun InputInfoContent(
 fun InputInfoScreenPreview() {
     InputInfoContent(
         userName = "Sanjay Shendy",
-        onNavigateToLogin = {}
+        onNavigateToLogin = {},
+        onNavigateToFindAccount = {}
     )
 }

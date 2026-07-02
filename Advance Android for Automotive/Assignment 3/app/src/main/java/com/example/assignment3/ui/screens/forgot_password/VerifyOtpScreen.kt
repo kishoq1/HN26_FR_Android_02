@@ -25,7 +25,7 @@ import com.example.assignment3.R
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun VerifyOtpScreen(
-    email: String, // Nhận data từ màn hình trước
+    email: String,
     viewModel: ForgotPasswordViewModel = hiltViewModel(),
     onNavigateBack: () -> Unit,
     onNavigateToCreatePassword: () -> Unit

@@ -4,7 +4,9 @@
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@android:color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_facebook_logo</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+
         <item name="postSplashScreenTheme">@style/Theme.Assignment3</item>
     </style>
 </resources>

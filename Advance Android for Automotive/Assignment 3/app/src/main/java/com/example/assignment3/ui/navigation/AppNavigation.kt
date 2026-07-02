@@ -39,6 +39,10 @@ fun AppNavigation() {
             InputInfoScreen(
                 onNavigateToLogin = {
                     navController.navigate(Screen.Login.route)
+                },
+                onNavigateToFindAccount = {
+                    // Chuyển hướng sang màn hình tìm tài khoản (Forgot Password B1)
+                    navController.navigate(Screen.FindAccount.route)
                 }
             )
         }

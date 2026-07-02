@@ -41,13 +41,12 @@ abstract class AppDatabase : RoomDatabase() {
 
             // Chạy trên luồng nền (IO)
             CoroutineScope(Dispatchers.IO).launch {
-                // Sử dụng hàm getDatabase() để đảm bảo lấy được instance an toàn
                 val dao = getDatabase(context).userDao()
                 dao.insertUser(
                     UserEntity(
                         email = "Sanjayshendy123@gmail.com",
                         name = "Sanjay Shendy",
-                        passcode = "12345678" // *Lưu ý nhỏ ở bên dưới
+                        passcode = "12345678"
                     )
                 )
             }

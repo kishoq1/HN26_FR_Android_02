@@ -21,9 +21,10 @@ import androidx.hilt.navigation.compose.hiltViewModel
 fun FindAccountScreen(
     viewModel: ForgotPasswordViewModel = hiltViewModel(),
     onNavigateBack: () -> Unit,
-    onNavigateToVerifyOtp: (String) -> Unit // Truyền email qua route
+    onNavigateToVerifyOtp: (String) -> Unit
 ) {
     var email by remember { mutableStateOf("") }
+    var errorMessage by remember { mutableStateOf<String?>(null) }
     val facebookBlue = Color(0xFF1877F2)
 
     Scaffold(
@@ -38,7 +39,11 @@ fun FindAccountScreen(
         }
     ) { paddingValues ->
         Column(
-            modifier = Modifier.fillMaxSize().background(Color.White).padding(paddingValues).padding(24.dp),
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.White)
+                .padding(paddingValues)
+                .padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
@@ -47,21 +52,53 @@ fun FindAccountScreen(
                 color = Color.Gray,
                 modifier = Modifier.padding(bottom = 24.dp)
             )
+
             TextField(
                 value = email,
-                onValueChange = { email = it },
+                onValueChange = {
+                    email = it
+                    errorMessage = null // Ẩn lỗi khi người dùng bắt đầu gõ lại
+                },
+                isError = errorMessage != null, // Đổi màu viền nếu có lỗi
                 modifier = Modifier.fillMaxWidth(),
                 placeholder = { Text("Phone or Email", color = Color.Gray) },
                 colors = TextFieldDefaults.colors(
-                    focusedContainerColor = Color.Transparent, unfocusedContainerColor = Color.Transparent,
-                    focusedIndicatorColor = facebookBlue, unfocusedIndicatorColor = Color.LightGray
+                    focusedContainerColor = Color.Transparent,
+                    unfocusedContainerColor = Color.Transparent,
+                    focusedIndicatorColor = facebookBlue,
+                    unfocusedIndicatorColor = Color.LightGray,
+                    errorIndicatorColor = Color.Red // Màu đỏ khi báo lỗi
                 )
             )
+
+            // Hiển thị dòng text báo lỗi nếu errorMessage khác null
+            if (errorMessage != null) {
+                Text(
+                    text = errorMessage!!,
+                    color = Color.Red,
+                    fontSize = 12.sp,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 4.dp),
+                    textAlign = TextAlign.Start
+                )
+            }
+
             Spacer(modifier = Modifier.height(24.dp))
+
             Button(
                 onClick = {
-                    viewModel.sendOtp(email)
-                    onNavigateToVerifyOtp(email)
+                    // Logic Validate
+                    val isPhone = email.all { it.isDigit() } && email.length == 10
+                    val isEmail = email.trim().endsWith("@gmail.com", ignoreCase = true) && email.length > 10
+
+                    if (isPhone || isEmail) {
+                        errorMessage = null
+                        viewModel.sendOtp(email)
+                        onNavigateToVerifyOtp(email)
+                    } else {
+                        errorMessage = "Please enter a valid 10-digit phone number or @gmail.com email."
+                    }
                 },
                 modifier = Modifier.fillMaxWidth().height(48.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = facebookBlue),

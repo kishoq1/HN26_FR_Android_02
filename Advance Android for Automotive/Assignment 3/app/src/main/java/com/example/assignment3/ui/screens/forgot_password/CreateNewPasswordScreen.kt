@@ -13,17 +13,35 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 
-@OptIn(ExperimentalMaterial3Api::class)
+// 1. MÀN HÌNH CHỨA LOGIC VÀ VIEWMODEL
 @Composable
 fun CreateNewPasswordScreen(
-    email: String, // 1. Thêm tham số email hứng từ Navigation
+    email: String,
     viewModel: ForgotPasswordViewModel = hiltViewModel(),
     onNavigateBack: () -> Unit,
     onNavigateToLogin: () -> Unit
+) {
+    CreateNewPasswordContent(
+        onNavigateBack = onNavigateBack,
+        onSubmitPassword = { newPassword ->
+            // Khi người dùng bấm nút, gọi ViewModel ở đây
+            viewModel.updatePassword(email, newPassword)
+            onNavigateToLogin()
+        }
+    )
+}
+
+// 2. MÀN HÌNH GIAO DIỆN THUẦN TÚY (Dùng để Preview)
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun CreateNewPasswordContent(
+    onNavigateBack: () -> Unit,
+    onSubmitPassword: (String) -> Unit // Truyền password mới ra ngoài qua lambda
 ) {
     var newPassword by remember { mutableStateOf("") }
     val facebookBlue = Color(0xFF1877F2)
@@ -40,7 +58,11 @@ fun CreateNewPasswordScreen(
         }
     ) { paddingValues ->
         Column(
-            modifier = Modifier.fillMaxSize().background(Color.White).padding(paddingValues).padding(24.dp),
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.White)
+                .padding(paddingValues)
+                .padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
@@ -62,18 +84,21 @@ fun CreateNewPasswordScreen(
                 placeholder = { Text("New Password", color = Color.Gray) },
                 visualTransformation = PasswordVisualTransformation(),
                 colors = TextFieldDefaults.colors(
-                    focusedContainerColor = Color.Transparent, unfocusedContainerColor = Color.Transparent,
-                    focusedIndicatorColor = facebookBlue, unfocusedIndicatorColor = Color.LightGray
+                    focusedContainerColor = Color.Transparent,
+                    unfocusedContainerColor = Color.Transparent,
+                    focusedIndicatorColor = facebookBlue,
+                    unfocusedIndicatorColor = Color.LightGray
                 )
             )
             Spacer(modifier = Modifier.height(32.dp))
             Button(
                 onClick = {
-                    // 2. Gọi hàm updatePassword với đầy đủ 2 tham số
-                    viewModel.updatePassword(email, newPassword)
-                    onNavigateToLogin()
+                    // Trả password mới ra ngoài thay vì gọi ViewModel trực tiếp
+                    onSubmitPassword(newPassword)
                 },
-                modifier = Modifier.fillMaxWidth().height(48.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = facebookBlue),
                 shape = RoundedCornerShape(24.dp)
             ) {
@@ -81,4 +106,14 @@ fun CreateNewPasswordScreen(
             }
         }
     }
+}
+
+// 3. HÀM PREVIEW GỌI CONTENT STATLESS
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun CreateNewPasswordPreview() {
+    CreateNewPasswordContent(
+        onNavigateBack = {},
+        onSubmitPassword = {} // Hàm rỗng vì ta chỉ cần xem UI
+    )
 }

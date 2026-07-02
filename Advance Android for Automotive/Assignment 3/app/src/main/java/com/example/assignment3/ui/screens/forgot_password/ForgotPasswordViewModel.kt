@@ -15,14 +15,12 @@ class ForgotPasswordViewModel @Inject constructor(
     // Bước 1: Gửi OTP (Trong thực tế sẽ gọi API, ở bài tập này ta chỉ chuyển màn hình)
     fun sendOtp(email: String) {
         if (email.isNotBlank()) {
-            // Xử lý logic gửi mã OTP qua email hoặc số điện thoại tại đây
         }
     }
 
     // Bước 2: Xác nhận OTP
     fun verifyOtp(otp: String) {
         if (otp.length == 6) {
-            // Xử lý logic đối chiếu mã OTP hợp lệ tại đây
         }
     }
 
@@ -30,7 +28,6 @@ class ForgotPasswordViewModel @Inject constructor(
     fun updatePassword(email: String, newPassword: String) {
         if (email.isNotBlank() && newPassword.isNotBlank()) {
             viewModelScope.launch {
-                // Gọi Repository để thực thi lệnh UPDATE trong Room DAO
                 repository.updatePassword(email, newPassword)
             }
         }
