@@ -10,13 +10,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56695559-6e43-452b-aad5-6c22e19f4621" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/java/com/example/practice1/ProfileActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/java/com/example/practice1/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/java/com/example/practice1/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/res/layout/profile_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/res/layout/profile_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Practice 1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/androidTest/java/com/example/assignment6/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/java/com/example/assignment6/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/java/com/example/assignment6/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/java/com/example/assignment6/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/java/com/example/assignment6/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/keepRules/rules.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/app/src/test/java/com/example/assignment6/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance Android for Automotive/Assignment 6/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 5/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 5/.idea/deploymentTargetSelector.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +70,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Quan\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,21 +79,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kishoq1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kishoq1&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kishoq1/HN26_FR_Android_02.git",
-    "accountId": "c7dcc188-4092-4285-95ef-925423665360"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kishoq1/HN26_FR_Android_02.git&quot;,
+    &quot;accountId&quot;: &quot;c7dcc188-4092-4285-95ef-925423665360&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3Eypa5WCyfvWfKVvi5UfntI5P2T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,14 +101,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/HN26_FR_Android_02/Basic Android for Automotive/Assignment/Assignment 3/Assignment 3.1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/HN26_FR_Android_02/Basic Android for Automotive/Assignment/Assignment 3",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
@@ -90,8 +137,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -100,7 +145,6 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Auto>
       <Hybrid>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -109,11 +153,9 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Hybrid>
       <Java>
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Java>
       <Native>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -122,7 +164,6 @@
         <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
         <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
-        <option name="DEBUG_SANDBOX_SDK" value="false" />
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
